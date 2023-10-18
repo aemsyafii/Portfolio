@@ -1,0 +1,47 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header,
+.footer {
+    color: whitesmoke;
+    background-color: black;
+    padding: 25px;
+    text-align: center;
+}
+
+.navbar {
+    float: right;
+    list-style: none;
+    margin-top: -20px;
+}
+
+.navbar ul li {
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.content {
+    text-align: center;
+    margin: 0px 25px;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.footer {
+    padding: 1px;
+}
