@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     margin: 0;
     font-family: sans-serif;
 }
@@ -7,21 +7,17 @@ body {
 .header,
 .footer {
     color: whitesmoke;
-    background-color: black;
+    background-color: rgb(19, 0, 124);
     padding: 25px;
     text-align: center;
 }
 
 .navbar {
     float: right;
-    list-style: none;
-    margin-top: -20px;
 }
 
-.navbar ul li {
-    overflow: hidden;
-    float: left;
-    margin-right: 10px;
+.scroll {
+    margin-left: 10px;
 }
 
 a {
@@ -30,7 +26,7 @@ a {
 }
 
 img {
-    max-width: 100%;
+    width: 70%;
 }
 
 .content {
