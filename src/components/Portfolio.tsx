@@ -10,17 +10,15 @@ const portfolioItems = [
     type: "github" as const,
     link: "https://aemsyafii.github.io/Search-Suggestion-Generator/",
     image: "https://drive.google.com/thumbnail?id=1xP298NM-tdBjb9oI27PEL1TN743Cl-QH&sz=w1000",
-    tags: ["Web App", "Generator", "SEO Tools"],
     category: "Development"
   },
   {
     id: 2,
     title: "Power Rush",
-    description: "Permainan interaktif yang dikembangkan dengan Figma untuk merayakan kemerdekaan. Telah diuji di acara Pasar Jajan dengan dashboard admin untuk analitik dan integrasi audio",
+    description: "Permainan interaktif yang dikembangkan untuk merayakan kemerdekaan dan di uji coba di acara Pasar Jajan. Password admin dashboard: admin123",
     type: "github" as const,
     link: "https://aemsyafii.github.io/Power-Rush/",
     image: "https://drive.google.com/thumbnail?id=19XXlo_O4OwB2E1VWbgURnBCP4g3jKnLk&sz=w1000",
-    tags: ["Interactive Game", "React", "Admin Dashboard"],
     category: "Development"
   },
   
@@ -32,7 +30,6 @@ const portfolioItems = [
     type: "figma" as const,
     link: "https://www.figma.com/proto/Ll68sSUTCqhN01KpKCfddO/UI-Roti-Ne?page-id=0%3A1&node-id=432-382&starting-point-node-id=432%3A382&t=kouIqG9bAfceyrBk-1",
     image: "https://drive.google.com/thumbnail?id=14aAwbn-fEjrVVlawldpzULw3mj0zAFMS&sz=w1000",
-    tags: ["Mobile App", "Productivity", "UI Design"],
     category: "UI/UX Design"
   },
   {
@@ -42,7 +39,6 @@ const portfolioItems = [
     type: "figma" as const,
     link: "https://www.figma.com/proto/PrNYjcG2tyGvGqKVhKXYKV/KantiNe?page-id=0%3A1&node-id=2329-207&starting-point-node-id=2329%3A439&t=XQladw1MCrelMbaS-1",
     image: "https://drive.google.com/thumbnail?id=19gCdfnpRyl-d0MmF9AsmJuA7fJR-xr9I&sz=w1000",
-    tags: ["Mobile App", "Food Service", "UX Design"],
     category: "UI/UX Design"
   },
   {
@@ -52,7 +48,6 @@ const portfolioItems = [
     type: "figma-wip" as const,
     link: "https://drive.google.com/file/d/1CkJxFCPj1PppUAg8zOSSArNcCmDYzo_f/view?usp=sharing",
     image: "https://drive.google.com/thumbnail?id=1CkJxFCPj1PppUAg8zOSSArNcCmDYzo_f&sz=w1000",
-    tags: ["Health Tech", "Expert System", "Work in Progress"],
     category: "UI/UX Design"
   },
   
@@ -64,7 +59,6 @@ const portfolioItems = [
     type: "presentation" as const,
     link: "https://drive.google.com/file/d/1P5aR_LJ8sEIaT6A-nWSAhbRac9z8ptjU/view?usp=sharing",
     image: "https://drive.google.com/thumbnail?id=1YTRV9n2-8r_XqTS3QDzzQyX6c9pI3ce5&sz=w1000",
-    tags: ["Presentation", "Education", "Canva"],
     category: "Visual Design"
   },
   {
@@ -74,7 +68,6 @@ const portfolioItems = [
     type: "presentation" as const,
     link: "https://drive.google.com/file/d/10VAdVM29hwGIdG3GwWTZgaiJ8fsJpFGn/view?usp=sharing",
     image: "https://drive.google.com/thumbnail?id=1wvs2UDnrXtnMEmeRJ05258GN04WYPN5_&sz=w1000",
-    tags: ["Presentation", "Religious", "Information"],
     category: "Visual Design"
   },
   {
@@ -84,7 +77,6 @@ const portfolioItems = [
     type: "presentation" as const,
     link: "https://drive.google.com/file/d/1xP1SLYyafC3R4iLGeAIMmfjKIocGOlzB/view?usp=sharing",
     image: "https://drive.google.com/thumbnail?id=1u5Q1WDX3JAk9urcIefehufVmhl7E4Rsf&sz=w1000",
-    tags: ["Presentation", "Legal", "Education"],
     category: "Visual Design"
   }
 ];
