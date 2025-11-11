@@ -9,9 +9,6 @@ export function About() {
               <p>
                 Seorang mahasiswa yang sedang menekuni bidang desain digital dan memiliki passion dalam menciptakan pengalaman visual yang menarik, intuitif, dan fungsional dengan mengombinasikan berbagai tools desain modern serta kemampuan adaptasi terhadap perkembangan AI dalam dunia kreatif.
               </p>
-              <p>
-                Desain bukan sekadar tampilan, tetapi juga cara menyampaikan pesan dan membangun koneksi dengan pengguna.
-              </p>
             </div>
           </div>
           <div>

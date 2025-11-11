@@ -1,15 +1,13 @@
-import { Github, Figma, FileText, Clock } from "lucide-react";
-import { Badge } from "./ui/badge";
+import { Github, Figma, FileText, Clock, Smartphone } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 interface PortfolioItem {
   id: number;
   title: string;
   description: string;
-  type: "github" | "figma" | "figma-wip" | "presentation";
+  type: "github" | "figma" | "figma-wip" | "presentation" | "kodular";
   link: string;
   image: string;
-  tags: string[];
   category: string;
 }
 
@@ -28,6 +26,8 @@ export function PortfolioCard({ item, onClick }: PortfolioCardProps) {
         return <Figma className="w-4 h-4" />;
       case "presentation":
         return <FileText className="w-4 h-4" />;
+      case "kodular":
+        return <Smartphone className="w-4 h-4" />;
     }
   };
 
@@ -41,6 +41,8 @@ export function PortfolioCard({ item, onClick }: PortfolioCardProps) {
         return "Figma - Work in Progress";
       case "presentation":
         return "Presentation (PDF)";
+      case "kodular":
+        return "Kodular App";
     }
   };
 

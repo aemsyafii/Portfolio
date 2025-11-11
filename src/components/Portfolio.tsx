@@ -1,5 +1,15 @@
 import { PortfolioCard } from "./PortfolioCard";
 import React from "react";
+import ssgenerator from "../assets/ssgenerator.png";
+import pwrush from "../assets/pwrush.png";
+import quaccess from "../assets/quaccess.png";
+import fgrotine from "../assets/fgrotine.png";
+import fgkantine from "../assets/fgkantine.png";
+import spdginjal from "../assets/spdginjal.png";
+import pdfcanva from "../assets/pdfcanva.png";
+import pdfhaji from "../assets/pdfhaji.png";
+import pdfpaten from "../assets/pdfpaten.png";
+import powerrushvideo from "../assets/20250829223102.mp4";
 
 const portfolioItems = [
   // GitHub Projects
@@ -9,8 +19,8 @@ const portfolioItems = [
     description: "Tool untuk generate saran pencarian dalam jumlah sangat banyak dengan fitur download hasil, atur bahasa, mode salin, dan buka hasil dengan mesin pencarian populer",
     type: "github" as const,
     link: "https://aemsyafii.github.io/Search-Suggestion-Generator/",
-    image: "https://drive.google.com/thumbnail?id=1xP298NM-tdBjb9oI27PEL1TN743Cl-QH&sz=w1000",
-    category: "Development"
+    image: ssgenerator,
+    category: "GitHub Project"
   },
   {
     id: 2,
@@ -18,71 +28,80 @@ const portfolioItems = [
     description: "Permainan interaktif yang dikembangkan untuk merayakan kemerdekaan dan di uji coba di acara Pasar Jajan. Password admin dashboard: admin123",
     type: "github" as const,
     link: "https://aemsyafii.github.io/Power-Rush/",
-    image: "https://drive.google.com/thumbnail?id=19XXlo_O4OwB2E1VWbgURnBCP4g3jKnLk&sz=w1000",
-    category: "Development"
+    image: pwrush,
+    category: "GitHub Project"
+  },
+  {
+    id: 3,
+    title: "Quick Access",
+    description: "Aplikasi mobile yang dirancang menggunakan Kodular dengan tampilan bersih untuk kebutuhan sehari-hari",
+    type: "kodular" as const,
+    link: "https://github.com/aemsyafii/Quick-Access",
+    image: quaccess,
+    category: "Kodular"
   },
   
   // Figma Designs
   {
-    id: 3,
+    id: 4,
     title: "Rotine",
     description: "Desain UI aplikasi Rotine untuk manajemen rutinitas harian dengan interface yang clean dan user-friendly",
     type: "figma" as const,
     link: "https://www.figma.com/proto/Ll68sSUTCqhN01KpKCfddO/UI-Roti-Ne?page-id=0%3A1&node-id=432-382&starting-point-node-id=432%3A382&t=kouIqG9bAfceyrBk-1",
-    image: "https://drive.google.com/thumbnail?id=14aAwbn-fEjrVVlawldpzULw3mj0zAFMS&sz=w1000",
-    category: "UI/UX Design"
+    image: fgrotine,
+    category: "Figma Design"
   },
   {
-    id: 4,
+    id: 5,
     title: "Kantine",
     description: "Aplikasi mobile untuk sistem kantin dengan fokus pada kemudahan pemesanan dan pembayaran",
     type: "figma" as const,
     link: "https://www.figma.com/proto/PrNYjcG2tyGvGqKVhKXYKV/KantiNe?page-id=0%3A1&node-id=2329-207&starting-point-node-id=2329%3A439&t=XQladw1MCrelMbaS-1",
-    image: "https://drive.google.com/thumbnail?id=19gCdfnpRyl-d0MmF9AsmJuA7fJR-xr9I&sz=w1000",
-    category: "UI/UX Design"
+    image: fgkantine,
+    category: "Figma Design"
   },
   {
-    id: 5,
+    id: 6,
     title: "Sistem Pakar Diagnosa Ginjal",
-    description: "Proyek ongoing - Aplikasi sistem pakar dengan survey interaktif untuk mendeteksi tingkat risiko penyakit ginjal (rendah, sedang, tinggi)",
+    description: "Sistem pakar dengan survey interaktif untuk mendeteksi tingkat risiko penyakit ginjal (rendah, sedang, tinggi)",
     type: "figma-wip" as const,
     link: "https://drive.google.com/file/d/1CkJxFCPj1PppUAg8zOSSArNcCmDYzo_f/view?usp=sharing",
-    image: "https://drive.google.com/thumbnail?id=1CkJxFCPj1PppUAg8zOSSArNcCmDYzo_f&sz=w1000",
-    category: "UI/UX Design"
+    image: spdginjal,
+    category: "Figma Design"
   },
   
   // Presentation Designs
   {
-    id: 6,
+    id: 7,
     title: "Belajar Canva",
     description: "Desain presentasi edukatif untuk pembelajaran Canva dengan layout menarik dan easy-to-follow",
     type: "presentation" as const,
     link: "https://drive.google.com/file/d/1P5aR_LJ8sEIaT6A-nWSAhbRac9z8ptjU/view?usp=sharing",
-    image: "https://drive.google.com/thumbnail?id=1YTRV9n2-8r_XqTS3QDzzQyX6c9pI3ce5&sz=w1000",
-    category: "Visual Design"
+    image: pdfcanva,
+    category: "Presentation"
   },
   {
-    id: 7,
+    id: 8,
     title: "Haji dan Umrah",
     description: "Presentasi informatif tentang ibadah haji dan umrah dengan desain visual yang menarik dan konten yang komprehensif",
     type: "presentation" as const,
     link: "https://drive.google.com/file/d/10VAdVM29hwGIdG3GwWTZgaiJ8fsJpFGn/view?usp=sharing",
-    image: "https://drive.google.com/thumbnail?id=1wvs2UDnrXtnMEmeRJ05258GN04WYPN5_&sz=w1000",
-    category: "Visual Design"
+    image: pdfhaji,
+    category: "Presentation"
   },
   {
-    id: 8,
+    id: 9,
     title: "Hak Paten",
     description: "Materi presentasi tentang hak paten dan kekayaan intelektual dengan visualisasi data yang efektif",
     type: "presentation" as const,
     link: "https://drive.google.com/file/d/1xP1SLYyafC3R4iLGeAIMmfjKIocGOlzB/view?usp=sharing",
-    image: "https://drive.google.com/thumbnail?id=1u5Q1WDX3JAk9urcIefehufVmhl7E4Rsf&sz=w1000",
-    category: "Visual Design"
+    image: pdfpaten,
+    category: "Presentation"
   }
 ];
 
 export function Portfolio() {
-  const categories = ["All", "Development", "UI/UX Design", "Visual Design"];
+  const categories = ["All", "GitHub Project", "Figma Design", "Kodular", "Presentation"];
   const [selectedCategory, setSelectedCategory] = React.useState("All");
 
   const filteredItems = selectedCategory === "All" 
@@ -135,11 +154,14 @@ export function Portfolio() {
           </div>
           <div className="max-w-4xl mx-auto">
             <div className="aspect-video bg-neutral-950 rounded-xl overflow-hidden border border-neutral-800">
-              <iframe
-                src="https://drive.google.com/file/d/1bun5Y0WylVfXvCpx0J0F0aFyhIKnUclu/preview"
-                className="w-full h-full"
-                allow="autoplay"
-              ></iframe>
+              <video
+                src={powerrushvideo}
+                className="w-full h-full object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
+              />
             </div>
           </div>
         </div>
